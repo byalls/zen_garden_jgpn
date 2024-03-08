@@ -2,6 +2,7 @@ html, body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    height: auto;
 }
 
 html {
@@ -9,6 +10,8 @@ html {
     font-family: Trattatello, fantasy;
     background-image: url(https://cdn.pixabay.com/photo/2016/06/17/13/02/ducks-1463317_1280.jpg);
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
