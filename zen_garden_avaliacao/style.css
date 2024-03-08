@@ -2,7 +2,7 @@ html, body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    height: 0%;
+    height: auto;
 }
 
 html {
@@ -43,17 +43,4 @@ h2 {
 h3 {
     font-size: 30px;
     color: rgb(140, 140, 22);
-}
-
-body::before {
-    content: '';
-    background-image: url(https://img.freepik.com/fotos-premium/imagem-lofi-para-fundo_847439-19380.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1; /* Coloca a imagem atrás de todo o conteúdo */
 }
